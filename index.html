@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Анна Морозова — фотограф в Москве. Индивидуальные фотосессии</title>
+  <meta name="description" content="Индивидуальные фотосессии в Москве: помогу с позированием, подберу локацию и образ. 20 обработанных фотографий за 7 дней. Запись онлайн.">
+  <meta name="theme-color" content="#F7F3EF">
+  <link rel="canonical" href="https://example.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Анна Морозова — фотограф">
+  <meta property="og:title" content="Фотографии, на которых вы себе понравитесь — без умения позировать">
+  <meta property="og:description" content="Индивидуальные фотосессии в Москве. 60 минут съёмки с подсказками по позированию, 20 обработанных фотографий за 7 дней.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/images/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/hero.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Анна Морозова — фотограф",
+    "description": "Индивидуальные фотосессии в Москве",
+    "areaServed": "Москва",
+    "telephone": "+7 999 000-00-00",
+    "email": "anna@example.com",
+    "priceRange": "6900–16900 ₽",
+    "url": "https://example.com/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="#home">
+        <span class="logo__name">Анна Морозова</span>
+        <span class="logo__role">фотограф · Москва</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <a class="nav__phone" href="tel:+79990000000">+7 999 000-00-00</a>
+      </nav>
+
+      <a class="header-phone" href="tel:+79990000000">+7 999 000-00-00</a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-backdrop" id="menu-backdrop" hidden></div>
+
+  <main id="main">
+
+    <!-- ================= 1. ГЛАВНАЯ ================= -->
+    <section class="hero" id="home">
+      <div class="hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Индивидуальные фотосессии в Москве</p>
+          <h1 class="hero__title">
+            Фотографии, на&nbsp;которых вы себе понравитесь — <em>без умения позировать</em>
+          </h1>
+          <p class="lede">
+            За 60 минут съёмки я помогу найти ваши удачные ракурсы, подскажу, как двигаться
+            и куда смотреть. Через 7 дней вы получите 20 обработанных фотографий, которые
+            захочется сохранить и показать близким.
+          </p>
+
+          <a class="btn btn--primary" href="#contacts">Выбрать дату фотосессии</a>
+
+          <ul class="benefits">
+            <li>60 минут съёмки с подсказками по позированию</li>
+            <li>20 обработанных фотографий за 7 дней</li>
+            <li>Помощь с выбором одежды и места съёмки</li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <img
+            src="images/hero.jpg"
+            alt="Портрет девушки в мягком естественном свете"
+            width="1200" height="1500"
+            fetchpriority="high"
+            decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. ГАЛЕРЕЯ ================= -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Портфолио</p>
+          <h2>Моменты, к которым хочется возвращаться</h2>
+          <p class="section__sub">Живые эмоции, естественный свет и фотографии, в которых вы узнаёте себя.</p>
+        </header>
+
+        <div class="gallery__grid" id="gallery-grid">
+          <button class="tile tile--wide reveal" type="button"
+                  data-full="images/gallery-1.jpg" data-caption="Индивидуальная съёмка · Москва">
+            <img src="images/gallery-1.jpg" alt="Индивидуальная фотосессия на улице" loading="lazy" decoding="async" width="1100" height="760">
+            <span class="tile__label">Индивидуальная съёмка</span>
+          </button>
+
+          <button class="tile tile--tall reveal" type="button"
+                  data-full="images/gallery-2.jpg" data-caption="Женский портрет · Москва">
+            <img src="images/gallery-2.jpg" alt="Женский портрет в интерьере" loading="lazy" decoding="async" width="800" height="1000">
+            <span class="tile__label">Женский портрет</span>
+          </button>
+
+          <button class="tile tile--sm reveal" type="button"
+                  data-full="images/gallery-3.jpg" data-caption="Love Story · Москва">
+            <img src="images/gallery-3.jpg" alt="Пара на прогулке, Love Story" loading="lazy" decoding="async" width="800" height="600">
+            <span class="tile__label">Love Story</span>
+          </button>
+
+          <button class="tile tile--md reveal" type="button"
+                  data-full="images/gallery-4.jpg" data-caption="Семейная фотосессия · Москва">
+            <img src="images/gallery-4.jpg" alt="Семейная фотосессия на природе" loading="lazy" decoding="async" width="900" height="1100">
+            <span class="tile__label">Семейная фотосессия</span>
+          </button>
+
+          <button class="tile tile--sm2 reveal" type="button"
+                  data-full="images/gallery-5.jpg" data-caption="Прогулочная фотосессия · Москва">
+            <img src="images/gallery-5.jpg" alt="Прогулочная фотосессия в городе" loading="lazy" decoding="async" width="800" height="600">
+            <span class="tile__label">Прогулочная фотосессия</span>
+          </button>
+
+          <button class="tile tile--wide reveal" type="button"
+                  data-full="images/gallery-6.jpg" data-caption="Индивидуальная съёмка · естественный свет">
+            <img src="images/gallery-6.jpg" alt="Портрет в естественном свете" loading="lazy" decoding="async" width="1100" height="700">
+            <span class="tile__label">Естественный свет</span>
+          </button>
+        </div>
+
+        <div class="gallery__foot reveal">
+          <button class="btn btn--ghost" type="button" id="gallery-all">Смотреть все фотографии</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. ОБО МНЕ ================= -->
+    <section class="section section--powder about" id="about">
+      <div class="container about__inner">
+        <div class="about__text reveal">
+          <p class="eyebrow">Обо мне</p>
+          <h2>Привет! Давайте знакомиться</h2>
+
+          <p>Меня зовут Анна, я фотограф в Москве.</p>
+          <p>Я помогаю людям получать фотографии, на которых они нравятся себе, даже если раньше
+             никогда не участвовали в профессиональной съёмке.</p>
+          <p>Вам не нужно заранее учить позы или знать, как правильно смотреть в камеру.</p>
+          <p>Я помогу подобрать одежду, найти подходящую локацию и буду подсказывать движения
+             на протяжении всей фотосессии.</p>
+          <p>Мне важно, чтобы вы чувствовали себя комфортно и получали фотографии,
+             которые хочется пересматривать.</p>
+
+          <ul class="about__features">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2c1 1.3 2.2 1.9 3.5 1.9s2.5-.6 3.5-1.9M9.2 9.5h.01M14.8 9.5h.01"/></svg>
+              Помощь с позированием
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0-6 6c0 4 6 12 6 12s6-8 6-12a6 6 0 0 0-6-6Z"/><circle cx="12" cy="9" r="2.2"/></svg>
+              Подбор образа и локации
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3.5"/></svg>
+              Естественные кадры без чрезмерной ретуши
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              Готовые фотографии за 7 дней
+            </li>
+          </ul>
+
+          <a class="btn btn--primary" href="#contacts">Записаться на съёмку</a>
+        </div>
+
+        <div class="about__media reveal">
+          <img
+            src="images/about.jpg"
+            alt="Анна Морозова, фотограф в Москве"
+            loading="lazy" decoding="async"
+            width="900" height="1200">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. ЦЕНЫ ================= -->
+    <section class="section prices" id="prices">
+      <div class="container">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Стоимость</p>
+          <h2>Выберите свою фотосессию</h2>
+          <p class="section__sub">Понятная стоимость, никаких неожиданных доплат. Вы заранее знаете, что получите.</p>
+        </header>
+
+        <div class="prices__grid">
+
+          <article class="price-card reveal">
+            <h3 class="price-card__name">Mini</h3>
+            <p class="price-card__price">6 900 <span>₽</span></p>
+            <p class="price-card__desc">Короткая съёмка, чтобы попробовать формат и получить несколько сильных кадров.</p>
+            <ul class="price-card__list">
+              <li>30 минут съёмки</li>
+              <li>Один образ</li>
+              <li>10 обработанных фотографий</li>
+              <li>Помощь с позированием</li>
+              <li>Готовность за 7 дней</li>
+            </ul>
+            <a class="btn btn--outline" href="#contacts" data-tariff="Mini">Выбрать Mini</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal">
+            <span class="price-card__badge">Популярный выбор</span>
+            <h3 class="price-card__name">Standard</h3>
+            <p class="price-card__price">9 900 <span>₽</span></p>
+            <p class="price-card__desc">Полноценная съёмка с подготовкой образа и выбором места.</p>
+            <ul class="price-card__list">
+              <li>60 минут съёмки</li>
+              <li>1–2 образа</li>
+              <li>20 обработанных фотографий</li>
+              <li>Помощь с позированием</li>
+              <li>Подбор места и рекомендации по одежде</li>
+              <li>Готовность за 7 дней</li>
+            </ul>
+            <a class="btn btn--primary" href="#contacts" data-tariff="Standard">Выбрать Standard</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3 class="price-card__name">Premium</h3>
+            <p class="price-card__price">16 900 <span>₽</span></p>
+            <p class="price-card__desc">Долгая съёмка на нескольких локациях с полной подготовкой.</p>
+            <ul class="price-card__list">
+              <li>120 минут съёмки</li>
+              <li>До трёх образов</li>
+              <li>40 обработанных фотографий</li>
+              <li>Помощь с подготовкой</li>
+              <li>Несколько локаций по согласованию</li>
+              <li>Помощь с позированием</li>
+            </ul>
+            <a class="btn btn--outline" href="#contacts" data-tariff="Premium">Выбрать Premium</a>
+          </article>
+
+        </div>
+
+        <p class="prices__note reveal">
+          Аренда студии, макияж и услуги стилиста оплачиваются отдельно, если они необходимы.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= 5. ОТЗЫВЫ ================= -->
+    <section class="section section--powder reviews" id="reviews">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Что говорят после съёмки</h2>
+          <p class="section__sub">Ниже — демонстрационные примеры. После первых съёмок здесь появятся настоящие отзывы клиентов.</p>
+        </header>
+
+        <div class="reviews__track" id="reviews-track">
+
+          <article class="review reveal">
+            <span class="review__demo">Демонстрационный отзыв</span>
+            <div class="review__head">
+              <img class="review__avatar" src="images/avatar-1.jpg" alt="" loading="lazy" width="56" height="56">
+              <div>
+                <p class="review__name">Екатерина</p>
+                <p class="review__type">Индивидуальная съёмка</p>
+              </div>
+            </div>
+            <blockquote>Я ужасно стесняюсь камеры и была уверена, что получится «деревянно». Но мне всё время
+              подсказывали, куда поставить руки и как повернуться, — к середине съёмки я просто перестала
+              замечать, что меня фотографируют.</blockquote>
+            <span class="review__source">Источник не указан</span>
+          </article>
+
+          <article class="review reveal">
+            <span class="review__demo">Демонстрационный отзыв</span>
+            <div class="review__head">
+              <img class="review__avatar" src="images/avatar-2.jpg" alt="" loading="lazy" width="56" height="56">
+              <div>
+                <p class="review__name">Марина и Павел</p>
+                <p class="review__type">Love Story</p>
+              </div>
+            </div>
+            <blockquote>Хотели спокойную съёмку без постановочных поз. Получилось именно так: гуляли,
+              разговаривали, иногда останавливались — а фотографии вышли живые, не «глянцевые».</blockquote>
+            <span class="review__source">Источник не указан</span>
+          </article>
+
+          <article class="review reveal">
+            <span class="review__demo">Демонстрационный отзыв</span>
+            <div class="review__head">
+              <img class="review__avatar" src="images/avatar-3.jpg" alt="" loading="lazy" width="56" height="56">
+              <div>
+                <p class="review__name">Ольга</p>
+                <p class="review__type">Семейная фотосессия</p>
+              </div>
+            </div>
+            <blockquote>Снимали с ребёнком, и это было главное опасение — что он устанет и начнёт капризничать.
+              Всё прошло спокойно, фотографии отдали через неделю, как и обещали.</blockquote>
+            <span class="review__source">Источник не указан</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. КОНТАКТЫ ================= -->
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__inner">
+
+        <div class="contacts__form-wrap reveal">
+          <header class="section__head">
+            <p class="eyebrow">Запись</p>
+            <h2>Давайте создадим ваши любимые фотографии</h2>
+            <p class="section__sub">Оставьте заявку, и мы обсудим дату, место и формат вашей будущей съёмки.</p>
+          </header>
+
+          <form class="form" id="booking-form" novalidate>
+            <div class="field">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Как к вам обращаться" aria-describedby="name-error" required>
+              <p class="field__error" id="name-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="contact">Телефон или Telegram</label>
+              <input type="text" id="contact" name="contact" autocomplete="tel" placeholder="+7 999 000-00-00 или @username" aria-describedby="contact-error" required>
+              <p class="field__error" id="contact-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="type">Тип фотосессии</label>
+              <select id="type" name="type" required>
+                <option value="" selected disabled>Выберите съёмку</option>
+                <option>Индивидуальная съёмка</option>
+                <option>Love Story</option>
+                <option>Семейная фотосессия</option>
+                <option>Женский портрет</option>
+                <option>Прогулочная фотосессия</option>
+                <option>Пока не знаю</option>
+              </select>
+              <p class="field__error" id="type-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="date">Удобная дата <span class="field__optional">необязательно</span></label>
+              <input type="date" id="date" name="date">
+            </div>
+
+            <div class="field">
+              <label for="comment">Комментарий <span class="field__optional">необязательно</span></label>
+              <textarea id="comment" name="comment" rows="3" placeholder="Например: хочу съёмку в парке, есть образ"></textarea>
+            </div>
+
+            <label class="checkbox">
+              <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error">
+              <span>Я согласен(а) на обработку персональных данных и принимаю
+                <a href="privacy.html" target="_blank" rel="noopener">политику конфиденциальности</a>.</span>
+            </label>
+            <p class="field__error" id="consent-error" role="alert"></p>
+
+            <!-- Ловушка для спам-ботов: человек её не видит -->
+            <input type="text" name="botcheck" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <button class="btn btn--primary btn--full" type="submit">Выбрать дату фотосессии</button>
+
+            <p class="form__micro">Заявка бесплатная. Я свяжусь с вами, отвечу на вопросы и предложу свободные даты.</p>
+
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <ul class="contacts__list">
+            <li><a href="https://t.me/anna_photomsk" target="_blank" rel="noopener">Telegram · @anna_photomsk</a></li>
+            <li><a href="tel:+79990000000">+7 999 000-00-00</a></li>
+            <li><a href="mailto:anna@example.com">anna@example.com</a></li>
+          </ul>
+        </div>
+
+        <div class="contacts__media reveal">
+          <img
+            src="images/contact.jpg"
+            alt="Фотосессия в Москве"
+            loading="lazy" decoding="async"
+            width="900" height="1200">
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= ПОДВАЛ ================= -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p class="logo__name">Анна Морозова</p>
+        <p class="site-footer__role">Индивидуальные фотосессии в Москве</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Навигация в подвале">
+        <a href="#gallery">Галерея</a>
+        <a href="#about">Обо мне</a>
+        <a href="#prices">Цены</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="site-footer__contacts">
+        <a href="tel:+79990000000">+7 999 000-00-00</a>
+        <a href="mailto:anna@example.com">anna@example.com</a>
+        <a href="https://t.me/anna_photomsk" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+
+    <div class="container site-footer__bottom">
+      <p>© <span id="year">2026</span> Анна Морозова</p>
+      <a href="privacy.html">Политика конфиденциальности</a>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX ================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии" hidden>
+    <button class="lightbox__close" id="lb-close" type="button" aria-label="Закрыть">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lb-prev" type="button" aria-label="Предыдущая фотография">&#8592;</button>
+    <figure class="lightbox__figure">
+      <img id="lb-img" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lb-next" type="button" aria-label="Следующая фотография">&#8594;</button>
+    <p class="lightbox__counter" id="lb-counter"></p>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
